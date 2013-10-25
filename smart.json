@@ -6,10 +6,12 @@
   "version": "0.1.17",
   "git": "https://github.com/mcrider/azimuth-core.git",
   "packages": {
-    "underscore-string": {},
     "font-awesome": {},
     "roles": {},
-    "iron-router": {},
+    "iron-router": {
+     "git": "https://github.com/EventedMind/iron-router.git",
+     "tag": "v0.5.4"
+    },
     "collectionFS": {},
     "analyticsjs": {}
   }
